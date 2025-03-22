@@ -1,0 +1,50 @@
+
+  /* Example CSS for the Navbar and Company Cards */
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.navbar .navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.companies-page {
+  padding: 2rem;
+}
+
+.companies-page h1{
+  text-align: center;
+}
+
+.search-bar{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.search-bar-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.company-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
